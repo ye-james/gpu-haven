@@ -3,7 +3,7 @@ import RTX_3080 from '../imgs/RTX_30080TI.jpg';
 
 function ProductCard() {
   return (
-      <div className="mx-auto mb-5 border rounded transition ease-in-out hover:scale-[1.01] p-7 w-72 h-96 solid border-1 border-primary-gray text-primary-light">
+      <div className="mx-auto border rounded transition ease-in-out hover:scale-[1.01] p-7 w-72 h-96 solid border-1 border-primary-gray text-primary-light">
           <div className="flex flex-col items-start header">
             <h3 className="text-lg font-medium uppercase">
                 Product Name
