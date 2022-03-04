@@ -1,3 +1,3 @@
-# GPU E-Commerce [React]
+# GPU E-Commerce [React, TailwindCSS]
 
 
