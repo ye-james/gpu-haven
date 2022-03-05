@@ -27,7 +27,7 @@ function Footer() {
           <span>Social Item 1</span>
         </div>
       </div>
-      <p>&copy; GPU Haven 2022. All rights reserved</p>
+      <p className="mt-10">&copy; GPU Haven 2022. All rights reserved</p>
     </div>
   )
 }
