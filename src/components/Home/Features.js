@@ -7,7 +7,7 @@ function Features() {
     return (
       <section className="features">
             <div className="w-4/5 h-full border-b-[1px] border-primary-gray text-primary-dark m-auto">
-            <h3 className="text-3xl font-bold tracking-[.3rem] uppercase h-[15vh] flex items-center justify-center text-secondary-dark"> 
+            <h3 className="text-3xl font-bold tracking-[.3rem] py-16 uppercase flex items-center justify-center text-secondary-dark"> 
                 Why shop with GPU Haven?
             </h3>
             <div className="flex flex-wrap items-center h-[15vh] p-4 text-xl w-50 justify-evenly">

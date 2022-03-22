@@ -7,7 +7,7 @@ function Nav() {
       <nav className="flex flex-wrap items-center justify-between p-6 bg-primary-dark border-secondary-light">
       <div className="flex items-center flex-shrink-0 mr-6 text-primary-gray">
             <img src={gpuicon} className="w-10 h-10 ml-5 mr-3 " alt="nav-icon"/>
-            <span className="text-xl font-semibold tracking-tight">GPU Haven</span>
+            <Link to='/' className="text-xl font-semibold tracking-tight">GPU Haven</Link>
         </div>
         <div className="block lg:hidden">
             <button className="flex items-center px-3 py-2 border border-white rounded text-primary-gray border-primary-gray hover:text-white hover:">

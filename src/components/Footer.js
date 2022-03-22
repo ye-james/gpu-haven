@@ -2,7 +2,7 @@ import React from 'react'
 
 function Footer() {
   return (
-    <div className="bg-primary-dark p-10 text-primary-gray h-[20vh]">
+    <div className="p-10 bg-primary-dark text-primary-gray">
       <div className="flex flex-wrap items-center justify-between p-6">
         <h3 className="text-3xl italic font-bold">GPU Haven</h3>
         <div className="block w-full flew-grow lg:flex lg:items-center lg:w-auto">

@@ -45,6 +45,7 @@ function ProductPage() {
             
             <p className="my-8 text-lg font-bold text-left">$799.99</p>
             <div className='flex gap-4'>
+            <label className="text-secondary-dark">Quantity:</label>
             <input
               className="w-20 text-right border-2 border-solid basis-10 border-primary-dark"
               type="number"
