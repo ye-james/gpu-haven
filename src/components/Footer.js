@@ -2,7 +2,7 @@ import React from 'react'
 
 function Footer() {
   return (
-    <div className="bg-primary-dark p-10 text-primary-gray h-[30vh]">
+    <div className="bg-primary-dark p-10 text-primary-gray h-[20vh]">
       <div className="flex flex-wrap items-center justify-between p-6">
         <h3 className="text-3xl italic font-bold">GPU Haven</h3>
         <div className="block w-full flew-grow lg:flex lg:items-center lg:w-auto">
@@ -21,7 +21,7 @@ function Footer() {
       </div>
       <div className="flex justify-between">
         <p className="w-1/2 p-6 text-left">GPU Haven is built by gamers for gamers in mind. Whether it's NVIDIA, AMD or all the brands in between, GPU Haven is the only place you'll need for gaming ready graphics cards. We strive to provide the best customer service to you.</p>
-        <div className="flex w-1/4 gap-[1rem]">
+        <div className="flex flex-wrap w-1/4 gap-[1rem]">
           <span>Social Item 1</span>
           <span>Social Item 1</span>
           <span>Social Item 1</span>
