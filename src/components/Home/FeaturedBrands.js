@@ -4,11 +4,11 @@ import MSI_LOGO from '../../imgs/MSI_LOGO.png';
 
 function FeaturedBrands() {
   return (
-    <div className="w-4/5 m-auto text-primary-dark">
+    <div className="relative w-4/5 m-auto text-primary-dark">
         <h3 className="text-3xl font-bold tracking-[.3rem] my-[2rem] uppercase flex items-center justify-center text-secondary-dark py-16"> 
               Featured Brands
           </h3>
-          <div className="flex flex-wrap justify-center gap-[4rem] mx-auto ">
+          <div className="flex flex-wrap justify-center gap-[4rem] mx-auto relative">
               <div className="relative flex flex-col justify-end w-full max-w-sm h-[300px] bg-primary-lightGray max-h-96">
                   <div className="w-[150px] h-[150px] block absolute top-[-25%] left-[50%] translate-x-[-50%] translate-y-[25%] mx-auto">
                       <img src={GIGABYTE_LOGO} alt="msi_logo" className="w-[150px] h-[150px]" />

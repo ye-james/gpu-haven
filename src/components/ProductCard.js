@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 import RTX_3080 from '../imgs/RTX_30080TI.jpg';
 
 function ProductCard() {
@@ -15,7 +16,7 @@ function ProductCard() {
       </div>
         <div className="flex items-center justify-between">
               <p className="text-xl font-medium">$100</p>
-              <button className="px-5 py-2 font-medium rounded hover:bg-primary-light bg-secondary-dark text-primary-gray">Add To Cart</button>
+              <Link to='/product' className="px-5 py-2 font-medium rounded hover:bg-primary-light bg-secondary-dark text-primary-gray">Add To Cart</Link>
           </div>
 
       </div>

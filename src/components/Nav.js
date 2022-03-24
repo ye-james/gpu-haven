@@ -4,7 +4,7 @@ import gpuicon from '../imgs/graphics-card-svgrepo-com.svg';
 
 function Nav() {
   return (
-      <nav className="flex flex-wrap items-center justify-between p-6 bg-primary-dark border-secondary-light">
+      <nav className="flex flex-wrap items-center justify-between w-full p-6  bg-primary-dark border-secondary-light drop-shadow-xl">
       <div className="flex items-center flex-shrink-0 mr-6 text-primary-gray">
             <img src={gpuicon} className="w-10 h-10 ml-5 mr-3 " alt="nav-icon"/>
             <Link to='/' className="text-xl font-semibold tracking-tight">GPU Haven</Link>
@@ -26,7 +26,7 @@ function Nav() {
                 Products
                 </Link>
             </div>
-            <button className="inline-block px-4 py-2 mt-4 text-sm text-lg font-medium leading-none border rounded text-primary-gray border-text-primary-gray hover:border-transparent hover:text-primary-dark hover:bg-secondary-light lg:mt-0">Cart</button>
+            <Link to="cart" className="inline-block px-4 py-2 mt-4 text-sm text-lg font-medium leading-none border rounded text-primary-gray border-text-primary-gray hover:border-transparent hover:text-primary-dark hover:bg-secondary-light lg:mt-0">Cart</Link>
         </div>
     </nav>
   )

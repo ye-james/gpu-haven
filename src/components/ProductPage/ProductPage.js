@@ -35,7 +35,7 @@ function ProductPage() {
         </div>
           </div>
           {/* Product details column */}
-        <div className="flex-auto px-8 basis-6/12">
+        <div className="justify-center flex-auto px-8 basis-6/12">
           <h3 className="mb-8 text-3xl font-bold text-left uppercase text-secondary-dark">
               Product Title
           </h3>
