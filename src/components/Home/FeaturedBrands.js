@@ -4,8 +4,9 @@ import MSI_LOGO from '../../imgs/MSI_LOGO.png';
 
 function FeaturedBrands() {
   return (
-    <div className="relative w-4/5 m-auto text-primary-dark">
-        <h3 className="text-3xl font-bold tracking-[.3rem] my-[2rem] uppercase flex items-center justify-center text-secondary-dark py-16"> 
+    <section id='featured-brands' className='py-48 bg-primary-dark'>
+        <div className="relative w-4/5 m-auto text-primary-dark">
+        <h3 className="text-3xl font-bold tracking-[.3rem] uppercase flex items-center justify-center text-primary-lightGray pb-24"> 
               Featured Brands
           </h3>
           <div className="flex flex-wrap justify-center gap-[4rem] mx-auto relative">
@@ -26,11 +27,12 @@ function FeaturedBrands() {
                         <p className="p-5 mt-3 font-bold text-secondary-dark upper">Hear Beyond The Limits! </p>
                         <button className="w-2/4 px-5 py-2 font-medium rounded hover:bg-primary-light bg-secondary-dark text-primary-gray">Shop Now!</button>
                   </div>
+                </div>
             </div>
         </div>
-    </div>
+    </section>
+    
   )
 }
 
 export default FeaturedBrands
-//

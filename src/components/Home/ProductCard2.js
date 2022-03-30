@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
-import RTX_3080 from '../imgs/RTX_30080TI.jpg';
-import RTX_3070 from '../imgs/RTX_3070.jpg';
+import RTX_3080 from '../../imgs/RTX_30080TI.jpg';
+import RTX_3070 from '../../imgs/RTX_3070.jpg';
 
 function ProductCard2() {
   return (

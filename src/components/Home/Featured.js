@@ -1,10 +1,10 @@
 import React from 'react'
 import ProductCard from '../ProductCard'
-import ProductCard2 from '../ProductCard2'
+import ProductCard2 from './ProductCard2'
 
 function Featured() {
   return (
-      <section id="featured">
+      <section id="featured" className='my-24'>
       <div className="w-full text-primary-dark pb-[50px]">
         <h3 className="text-3xl font-bold tracking-[.3rem] uppercase h-[15vh] flex items-center justify-center text-secondary-dark">Featured Products</h3>
         <div className="w-3/4 mx-auto">

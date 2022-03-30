@@ -5,12 +5,12 @@ import { MdComputer } from 'react-icons/md'
 
 function Features() {
     return (
-      <section className="features">
-            <div className="w-4/5 h-full border-b-[1px] border-primary-gray text-primary-dark m-auto">
-            <h3 className="text-3xl font-bold tracking-[.3rem] py-16 uppercase flex items-center justify-center text-secondary-dark"> 
+      <section className="my-16 features">
+            <div className="w-4/5 m-auto text-primary-dark">
+            <h3 className="text-3xl font-bold tracking-[.3rem] py-8 uppercase flex items-center justify-center text-secondary-dark"> 
                 Why shop with GPU Haven?
             </h3>
-            <div className="flex flex-wrap items-center h-[15vh] p-4 text-xl w-50 justify-evenly">
+            <div className="flex flex-wrap items-center justify-between p-16 text-xl w-50">
                 <div className="flex items-center gap-3 p-2 item">
                     <GrPowerCycle className="w-12 h-12 fill-primary-dark" />
                     <div className="flex flex-col items-start">
