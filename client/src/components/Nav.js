@@ -19,14 +19,14 @@ function Nav() {
                 <Link to="/" className="block mt-4 mr-4 text-lg font-medium lg:inline-block lg:mt-0 text-primary-gray hover:text-secondary-light">
                 Home
                   </Link>
-                <Link to="explore" className="block mt-4 mr-4 text-lg font-medium lg:inline-block lg:mt-0 text-primary-gray hover:text-secondary-light">
+                {/* <Link to="explore" className="block mt-4 mr-4 text-lg font-medium lg:inline-block lg:mt-0 text-primary-gray hover:text-secondary-light">
                 Explore
-                </Link>
+                </Link> */}
                 <Link to="products" className="block mt-4 mr-4 text-lg font-medium lg:inline-block lg:mt-0 text-primary-gray hover:text-secondary-light">
                 Products
                 </Link>
             </div>
-            <Link to="cart" className="inline-block px-4 py-2 mt-4 text-sm text-lg font-medium leading-none border rounded text-primary-gray border-text-primary-gray hover:border-transparent hover:text-primary-dark hover:bg-secondary-light lg:mt-0">Cart</Link>
+            <Link to="cart" className="inline-block px-4 py-2 mt-4 text-sm text-lg font-medium leading-none border rounded text-primary-gray border-text-primary-gray hover:border-transparent hover:text-primary-dark hover:bg-secondary-light lg:mt-0"><i className='fa fa-shopping-cart'/></Link>
         </div>
     </nav>
   )

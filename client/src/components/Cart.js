@@ -6,7 +6,7 @@ function Cart() {
 
       <div className='w-3/4 p-12 mx-auto my-24 border-2 border-solid border-primary-light'>
         <div className='w-full'>
-          <h3 className="text-2xl font-bold text-primary-dark">Cart <span className='text-2xl font-bold fa fa-shopping-cart text-primary-dark'> (2)</span></h3>
+          <h3 className="text-2xl font-bold text-primary-dark">Cart <span className='text-2xl font-bold text-primary-dark'><i className='fa fa-shopping-cart'/> (2)</span></h3>
           <table className="w-full">
               <tr>
                   <th className='text-left p-[5px] text-white	background-primary-dark text-lg'>Product</th>
